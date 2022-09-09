@@ -20,9 +20,6 @@ TextEditor
   [Neovim](https://neovim.io/)
   
 Samples:
-
-<video src='https://raw.githubusercontent.com/prajinkhadka/dotfiles/macM1/sample/1_(1).mov' width=180/>
-
 [![Watch the video]()](https://raw.githubusercontent.com/prajinkhadka/dotfiles/macM1/sample/1_(1).mov)
   
 
