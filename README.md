@@ -20,6 +20,9 @@ TextEditor
   [Neovim](https://neovim.io/)
   
 Samples:
+![alt text](https://raw.githubusercontent.com/prajinkhadka/dotfiles/macM1/sample/Screen%20Shot%202022-09-09%20at%2023.56.31.png)
+
+
 [![Watch the video]()](https://raw.githubusercontent.com/prajinkhadka/dotfiles/macM1/sample/1_(1).mov)
   
 
