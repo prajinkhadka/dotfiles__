@@ -1,1 +1,3 @@
-![alt text](https://raw.githubusercontent.com/prajinkhadka/dotfiles/ubuntu/t1UeI7p.png)
+To Do:
+1. Use Config management tool
+2. Ansible for management.
