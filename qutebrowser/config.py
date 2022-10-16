@@ -200,5 +200,6 @@ c.fonts.tabs.selected = 'default_size default_family'
 config.bind('J', 'tab-prev')
 config.bind('K', 'tab-next')
 
+# Bind for selecting tabs with fuzzy Search
 config.bind("<Space>", "set-cmd-text -s :tab-select")
 
