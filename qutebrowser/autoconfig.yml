@@ -6,43 +6,11 @@
 
 config_version: 2
 settings:
-  bindings.commands:
-    global:
-      command:
-      normal:
-        J: tab-prev
-        K: tab-next
-  fonts.tabs.selected:
-    global: default_size default_family
-  tabs.favicons.show:
-    global: always
-  tabs.position:
-    global: top
-  tabs.select_on_remove:
-    global: next
-  tabs.show:
-    global: switching
-  tabs.tooltips:
+  colors.webpage.darkmode.algorithm:
+    global: lightness-cielab
+  colors.webpage.darkmode.contrast:
+    global: 0.8
+  colors.webpage.darkmode.enabled:
     global: true
-  tabs.width:
-    global: 15%
-  zoom.default:
-    global: 110%
-  zoom.levels:
-    global:
-    - 25%
-    - 33%
-    - 50%
-    - 67%
-    - 75%
-    - 90%
-    - 100%
-    - 110%
-    - 125%
-    - 150%
-    - 175%
-    - 200%
-    - 250%
-    - 300%
-    - 400%
-    - 500%
+  colors.webpage.darkmode.grayscale.all:
+    global: false

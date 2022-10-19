@@ -202,4 +202,3 @@ config.bind('K', 'tab-next')
 
 # Bind for selecting tabs with fuzzy Search
 config.bind("<Space>", "set-cmd-text -s :tab-select")
-
