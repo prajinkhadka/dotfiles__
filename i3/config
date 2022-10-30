@@ -46,6 +46,7 @@ bindsym $mod+p exec mpc toggle
 bindsym $mod+n exec mpc next
 
 
+bindsym $mod+b exec kitty -e "ranger"
 
 exec --no-startup-id xsettingsd &
 exec --no-startup-id compton -b
@@ -54,7 +55,7 @@ exec --no-startup-id feh --bg-fill /home/prajin/Pictures/Arch_Linux.png
 
 
 # start a terminal
-bindsym Ctrl+$alt+t exec alacritty
+bindsym Ctrl+$alt+t exec kitty 
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -210,7 +211,7 @@ set $urgent_bg_color 		#e53935
 # Polybar
 #exec_always --no-startup-id $HOME/.config/#polybar/launch.sh
 
-exec_always --no-startup-i /home/works/.config/polybar/forest/launch.sh
+exec_always --no-startup-id /home/works/.config/polybar/forest/launch.sh
 
 
 # bindsym Ctrl+$alt+l exec i3lock -c 000000 && sleep 1 && xset s activate
@@ -246,7 +247,7 @@ exec_always --no-startup-id nitrogen --#restore &
 
 exec_always compton
 
-exec --no-startup-id feh --bg-fill /home/works/Downloads/wa1.jpg
+exec --no-startup-id feh --bg-fill /home/works/Downloads/wall_p.png
 
 bindsym --release Print exec scrot -m $HOME/Pictures/screenshots/%s_%H_%M_%d_%m_%Y_$wx$h.png
 bindsym --release Shift+Print exec scrot -s $HOME/Pictures/screenshots/%s_%H_%M_%d_%m_%Y_$wx$h.png
