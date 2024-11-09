@@ -125,16 +125,6 @@
                     "simple_modifications": [
                         {
                             "from": {
-                                "apple_vendor_top_case_key_code": "keyboard_fn"
-                            },
-                            "to": [
-                                {
-                                    "key_code": "left_control"
-                                }
-                            ]
-                        },
-                        {
-                            "from": {
                                 "key_code": "left_alt"
                             },
                             "to": [
@@ -152,29 +142,14 @@
                                     "key_code": "left_alt"
                                 }
                             ]
-                        }
-                    ],
-                    "treat_as_built_in_keyboard": false
-                },
-                {
-                    "disable_built_in_keyboard_if_exists": false,
-                    "fn_function_keys": [],
-                    "identifiers": {
-                        "is_keyboard": true,
-                        "is_pointing_device": false,
-                        "product_id": 4137,
-                        "vendor_id": 39658
-                    },
-                    "ignore": false,
-                    "manipulate_caps_lock_led": true,
-                    "simple_modifications": [
+                        },
                         {
                             "from": {
-                                "key_code": "caps_lock"
+                                "apple_vendor_top_case_key_code": "keyboard_fn"
                             },
                             "to": [
                                 {
-                                    "key_code": "escape"
+                                    "key_code": "left_control"
                                 }
                             ]
                         }

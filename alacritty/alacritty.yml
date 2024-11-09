@@ -8,10 +8,10 @@ window:
     y: 15
   decorations: Full
 scrolling:
-  history: 10000
+  history: 100000
   multiplier: 3
 window:
-   opacity: 0.9
+   opacity: 1.0
 
 # window.dynamic_title: true
 
@@ -22,14 +22,23 @@ import:
 
 key_bindings:
   - { key: F11, action: ToggleFullscreen }
-
+  - { key: Key0, mods: Alt, chars: "\x1b0" }
+  - { key: Key1, mods: Alt, chars: "\x1b1" }
+  - { key: Key2, mods: Alt, chars: "\x1b2" }
+  - { key: Key3, mods: Alt, chars: "\x1b3" }
+  - { key: Key4, mods: Alt, chars: "\x1b4" }
+  - { key: Key5, mods: Alt, chars: "\x1b5" }
+  - { key: Key6, mods: Alt, chars: "\x1b6" }
+  - { key: Key7, mods: Alt, chars: "\x1b7" }
+  - { key: Key8, mods: Alt, chars: "\x1b8" }
+  - { key: Key9, mods: Alt, chars: "\x1b9" }
 # Font Customization
 font:
   normal:
-    family: "Hack Nerd Font"
+    family: "FiraCode Nerd Font"
     style: Regular
     
-  size: 16
+  size: 14
   offset:
     x: 0
     y: 0
@@ -77,6 +86,7 @@ cursor:
 
 key_bindings:
   - { key: N, mods: Control, action: SpawnNewInstance }
+
 #||\\ //||
 #|| \// || Mackenzie Criswell
 #|| //\ || https://makc.co
